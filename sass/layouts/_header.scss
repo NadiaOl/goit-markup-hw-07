@@ -1,0 +1,118 @@
+.navigation {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin: 0px auto;
+    display: flex;
+    border-bottom: 2px solid #ECECEC;
+}
+
+.header-logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+    transition-property: color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--link-color);
+        }
+}
+
+.footer-logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+    transition-property: color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--link-color);
+    }
+}
+
+.header-logo-span,
+.footer-logo-span {
+    color: var(--link-color);
+}
+
+.link-studio::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--link-color);
+    border-radius: 2px;
+    bottom: 0;
+    left: 0;
+}
+
+.header-nav {
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+    align-items: center;
+}
+
+.contact-list {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    padding: 32px 0px;
+    position: relative;
+}
+
+.icon-smartphone {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.icon-envelope-hover {
+    fill: currentColor;
+    margin-right: 10px;
+    .link-email:hover & {
+        fill: var(--link-color);
+}
+}
+
+
+.link-email,
+.link-tel {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+
+    padding: 32px 0px;
+
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}

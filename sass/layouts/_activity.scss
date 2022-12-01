@@ -1,0 +1,38 @@
+.activity {
+    padding-bottom: 94px;
+}
+
+.activity-title,
+.team-title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.activity-list {
+    display: flex;
+    gap: 30px;
+}
+
+.activity-item {
+    position: relative;
+}
+
+.activity-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--additional-color);
+    background: rgba(47, 48, 58, 0.8);
+    padding: 27px 0px;
+    position: absolute;
+    height: 70px;
+    width: 370px;
+    left: 0;
+    bottom: 0;
+}
