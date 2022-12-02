@@ -1,5 +1,7 @@
-.navigation {
+.header {
     display: flex;
+    margin: 0px auto;
+    border-bottom: 2px solid #ECECEC;
 }
 
 .header-container {
@@ -7,68 +9,42 @@
     align-items: center;
 }
 
-.header {
-    margin: 0px auto;
+.navigation {
     display: flex;
-    border-bottom: 2px solid #ECECEC;
 }
 
-.header-logo {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
-
-    transition-property: color, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-        color: var(--link-color);
-        }
+.header-list {
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+    align-items: center;
 }
 
-.footer-logo {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
+.header-link {
+    position: relative;
 
-    transition-property: color, transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-        color: var(--link-color);
-    }
+    padding: 32px 0px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--title-color);
 }
 
-.header-logo-span,
-.footer-logo-span {
-    color: var(--link-color);
-}
-
-.link-studio::after {
+.current-page::after {
     content: "";
     position: absolute;
     display: block;
     width: 100%;
     height: 4px;
-    background-color: var(--link-color);
-    border-radius: 2px;
     bottom: 0;
     left: 0;
-}
 
-.header-nav {
-    display: flex;
-    gap: 50px;
-    margin-left: 93px;
-    align-items: center;
+    background-color: var(--link-color);
+    border-radius: 2px;
+
 }
 
 .contact-list {
@@ -77,14 +53,18 @@
     margin-left: auto;
 }
 
-.header-nav-link {
+.link-email,
+.link-tel {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 32px 0px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--title-color);
-    padding: 32px 0px;
-    position: relative;
+    color: var(--text-color);
 }
 
 .icon-smartphone {
@@ -92,7 +72,7 @@
     margin-right: 10px;
 }
 
-.icon-envelope-hover {
+.icon-envelope {
     fill: currentColor;
     margin-right: 10px;
     .link-email:hover & {
@@ -100,19 +80,3 @@
 }
 }
 
-
-.link-email,
-.link-tel {
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-
-    padding: 32px 0px;
-
-    display: inline-flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
