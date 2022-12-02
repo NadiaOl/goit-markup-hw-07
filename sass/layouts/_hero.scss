@@ -9,7 +9,7 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/back.jpg);
 }
 
-.hero-title {
+.hero__title {
     max-width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -24,7 +24,7 @@
     color: var(--additional-color);
 }
 
-.hero-btn {
+.hero__btn {
     display: flex;
     align-items: center;
     text-align: center;

@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.about-client {
+.clients__about {
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -13,16 +13,15 @@
     letter-spacing: 0.03em;
 
     color: var(--title-color);
-
 }
 
-.client-names {
+.clients__names {
     display: flex;
     gap: 30px;
     justify-content: center;
 }
 
-.client-item {
+.clients__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +31,7 @@
 
 }
 
-.client-link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;

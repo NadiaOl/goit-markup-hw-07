@@ -2,7 +2,7 @@
     padding-bottom: 94px;
 }
 
-.activity-title {
+.activity__title {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -10,16 +10,16 @@
     letter-spacing: 0.03em;
 }
 
-.activity-list {
+.activity__list {
     display: flex;
     gap: 30px;
 }
 
-.activity-item {
+.activity__item {
     position: relative;
 }
 
-.activity-text {
+.activity__text {
     position: absolute;
     left: 0;
     bottom: 0;

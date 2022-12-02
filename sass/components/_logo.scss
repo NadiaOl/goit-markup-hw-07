@@ -1,4 +1,4 @@
-.logo-link {
+.header__logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -17,7 +17,7 @@
     }
 }
 
-.footer-logo {
+.footer__logo {
     display: inline-block;
     margin-bottom: 20px;
 
@@ -38,7 +38,7 @@
     }
 }
 
-.logo-span,
-.footer-logo-span {
+.header__logo-span,
+.footer__logo-span {
     color: var(--link-color);
 }

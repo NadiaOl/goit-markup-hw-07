@@ -7,19 +7,19 @@
     background-color: #2f303a;
 }
 
-.footer-container {
+.footer__container {
     display: flex;
 }
 
-.contact-div {
+.footer__contact {
     margin-right: 93px;
 }
 
-.footer-item {
+.footer__item {
     margin-bottom: 9px;
 }
 
-.footer-contact-list {
+.footer__contact-list {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -27,25 +27,24 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-address-link {
+.footer__address-link {
     display: inline-block;
     color: var(--additional-color);
 }
 
-.footer-contact-link {
+.footer__contact-link {
     display: inline-block;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .join {
     width: 206px;
-    height: 80px;
-    margin-top: 12px;
+    padding-top: 12px;
     margin-right: 93px;
 }
 
-.join-us,
-.signup-us {
+.join__title,
+.subscription__title {
     margin-bottom: 20px;
 
     font-weight: 700;
@@ -55,20 +54,15 @@
     text-transform: uppercase;
 
     color: var(--additional-color);
-
 }
 
-.signup-us {
-    margin-top: 12px;
-}
-
-.join-list {
+.join__list {
     display: flex;
     gap: 10px;
     justify-content: center;
 }
 
-.join-item {
+.join__item {
     width: 44px;
     height: 44px;
     display: flex;
@@ -76,7 +70,7 @@
     justify-content: center;
 }
 
-.join-link {
+.join__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,13 +101,17 @@
     fill: var(--additional-color);
 }
 
-.signup-form {
+.subscription {
+    padding-top: 12px;
+}
+
+.subscription__form {
     display: flex;
     width: 570px;
     gap: 12px;
 }
 
-.signup-input {
+.subscription__input {
     height: 50px;
     width: 358px;
     padding-left: 16px;
@@ -123,11 +121,9 @@
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-
-
 }
 
-.signup-btn {
+.subscription__btn {
     display: flex;
     gap: 10px;
     align-items: center;
