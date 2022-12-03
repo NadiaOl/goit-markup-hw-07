@@ -14,11 +14,10 @@
     margin: 0 auto;
     margin-bottom: 30px;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include fonts (900, 44, 1.36, 0.06);
+
     text-align: center;
-    letter-spacing: 0.06em;
+
     text-transform: uppercase;
 
     color: var(--additional-color);
@@ -38,10 +37,8 @@
     padding-left: 30px;
 
     font-family: "Roboto";
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
+    
+    @include fonts (700, 16, 1.88, 0.06);
 
     color: var(--additional-color);
     background-color: var(--link-color);

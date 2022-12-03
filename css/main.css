@@ -175,8 +175,8 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .callback {
@@ -265,7 +265,6 @@ textarea::placeholder {
   transform: translate(75%, 150%);
 }
 
-/* ___________________________________________ */
 .check-text span {
   width: 16px;
   height: 15px;
@@ -281,7 +280,7 @@ textarea::placeholder {
   justify-content: center;
   margin: 0 auto;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -309,7 +308,7 @@ textarea::placeholder {
   margin: 0 auto;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   color: var(--text-color);
 }
 
@@ -336,10 +335,10 @@ textarea::placeholder {
   align-items: center;
   text-align: center;
   justify-content: center;
-  letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--additional-color);
   background-color: var(--link-color);
   border-width: 1px;
@@ -459,8 +458,8 @@ textarea::placeholder {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--additional-color);
 }
@@ -538,8 +537,8 @@ textarea::placeholder {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .activity__list {
@@ -561,8 +560,8 @@ textarea::placeholder {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--additional-color);
   background: rgba(47, 48, 58, 0.8);
@@ -604,16 +603,16 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team__position {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--text-color);
 }
 
@@ -668,8 +667,8 @@ textarea::placeholder {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-color);
 }
 
@@ -739,8 +738,8 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-color);
   background-color: #F5F4FA;
   border-width: 1px;
@@ -947,10 +946,10 @@ textarea::placeholder {
   border-width: 1px;
   border-radius: 4%;
   border-color: var(--link-color);
-  letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--additional-color);
   background-color: var(--link-color);
 }

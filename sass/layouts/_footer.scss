@@ -20,9 +20,7 @@
 }
 
 .footer__contact-list {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include fonts (null, 14, 1.71, 0.03);
 
     color: rgba(255, 255, 255, 0.6);
 }
@@ -47,10 +45,8 @@
 .subscription__title {
     margin-bottom: 20px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include fonts (700, 14, 1.14, 0.03);
+
     text-transform: uppercase;
 
     color: var(--additional-color);
@@ -138,10 +134,7 @@
     border-radius: 4%;
     border-color: var(--link-color);
 
-    letter-spacing: 0.06em;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    @include fonts (700, 16, 1.88, 0.06);
 
     color: var(--additional-color);
     background-color: var(--link-color);

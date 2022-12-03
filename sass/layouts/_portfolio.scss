@@ -23,11 +23,10 @@
     padding-left: 22px;
 
     font-family: "Roboto";
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+
+    @include fonts (500, 16, 1.62, 0.03);
+
     text-align: center;
-    letter-spacing: 0.03em;
 
     color: var(--title-color);
     background-color: #F5F4FA;
@@ -72,9 +71,7 @@
     top: 0;
     height: 100%;
 
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
+    @include fonts (null, 18, 1.56, 0.03);
 
     color: var(--additional-color);
     background: rgba(33, 150, 243, 0.9);
@@ -105,15 +102,12 @@
 }
 
 .portfolio__title {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    @include fonts (null, 18, 2, 0.06);
 }
 
 .portfolio__text {
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+    @include fonts (null, 16, 1.88, 0.03);
+
     color: var(--text-color);
 }
 
